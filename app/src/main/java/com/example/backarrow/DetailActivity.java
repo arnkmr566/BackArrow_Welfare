@@ -13,15 +13,18 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        getSupportActionBar().setTitle("Detail Activity");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+     //   getSupportActionBar().setTitle("Detail Activity");
+     //   getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
 
     }
+
     @Override
     public boolean onSupportNavigateUp() {
         onBackPressed();
         return true;
     }
+
+
 }

@@ -25,7 +25,7 @@ public class ImplicitIntentActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String sharetxt = quote.getText().toString();
+                String sharetxt= quote.getText().toString();
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
                 sendIntent.setType("text/plain");
